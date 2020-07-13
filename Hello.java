@@ -8,8 +8,11 @@ public class Hello {
 		System.out.print("Enter number to print table: ");
 		System.out.println();
 		for(int i=0;i<=10;i++){
-			System.out.println(number+" * "+i+" = "+(number*i));
+			if(i%2==0){
+				System.out.println(number+" * "+i+" = "+(number*i));
+			}
 		}
+		System.out.println("Thanks");
 	}
 }
 
